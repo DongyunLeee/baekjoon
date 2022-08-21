@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[2609] 최대공약수와 최소공배수 /* Solve */">
-      <change afterPath="$PROJECT_DIR$/2775.py" afterDir="false" />
+    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[2775] 부녀회장이 될테야 /* Solve */">
+      <change afterPath="$PROJECT_DIR$/10989.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +34,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Python.2775">
-    <configuration name="10250" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10989">
+    <configuration name="10989" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10250.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10989.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10989" />
         <item itemvalue="Python.2775" />
         <item itemvalue="Python.2609" />
         <item itemvalue="Python.1259" />
         <item itemvalue="Python.15829" />
-        <item itemvalue="Python.10250" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661059928009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[2775] 부녀회장이 될테야 /* Solve */">
+      <created>1661064129423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661064129423</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +285,7 @@
     <MESSAGE value="[15829] Hashing /* Solve */" />
     <MESSAGE value="[1259] 팰린드롬수 /* Solve */" />
     <MESSAGE value="[2609] 최대공약수와 최소공배수 /* Solve */" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2609] 최대공약수와 최소공배수 /* Solve */" />
+    <MESSAGE value="[2775] 부녀회장이 될테야 /* Solve */" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2775] 부녀회장이 될테야 /* Solve */" />
   </component>
 </project>
