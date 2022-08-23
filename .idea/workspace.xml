@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[11050] 이항 계수 1 /* Solve */">
-      <change afterPath="$PROJECT_DIR$/1181.py" afterDir="false" />
+    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[1181] 단어 정렬 /* Solve */">
+      <change afterPath="$PROJECT_DIR$/1987.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Python.1181">
+  <component name="RunManager" selected="Python.1978">
     <configuration name="10989" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2609" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1978" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2609.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1978.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1978" />
         <item itemvalue="Python.1181" />
         <item itemvalue="Python.11050" />
         <item itemvalue="Python.10989" />
         <item itemvalue="Python.2775" />
-        <item itemvalue="Python.2609" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661067500949</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[1181] 단어 정렬 /* Solve */">
+      <created>1661263270807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661263270807</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +309,7 @@
     <MESSAGE value="[2775] 부녀회장이 될테야 /* Solve */" />
     <MESSAGE value="[10989] 수 정렬하기 3 /* Solve */" />
     <MESSAGE value="[11050] 이항 계수 1 /* Solve */" />
-    <option name="LAST_COMMIT_MESSAGE" value="[11050] 이항 계수 1 /* Solve */" />
+    <MESSAGE value="[1181] 단어 정렬 /* Solve */" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1181] 단어 정렬 /* Solve */" />
   </component>
 </project>
