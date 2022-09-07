@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[2164] 카드2 /* Solve */">
-      <change afterPath="$PROJECT_DIR$/10816.py" afterDir="false" />
+    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[10816] 숫자 카드 2 /* Solve */">
+      <change afterPath="$PROJECT_DIR$/10845.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.10816">
+  <component name="RunManager" selected="Python.10845">
     <configuration name="1018" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11866" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10845" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11866.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10845.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10845" />
         <item itemvalue="Python.10816" />
         <item itemvalue="Python.2164" />
         <item itemvalue="Python.1920" />
         <item itemvalue="Python.1018" />
-        <item itemvalue="Python.11866" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662549301028</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[10816] 숫자 카드 2 /* Solve */">
+      <created>1662552525493</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662552525493</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +369,7 @@
     <MESSAGE value="[11866] 요세푸스 문제0 /* Solve */" />
     <MESSAGE value="[1920] 수 찾기 /* Solve */" />
     <MESSAGE value="[2164] 카드2 /* Solve */" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2164] 카드2 /* Solve */" />
+    <MESSAGE value="[10816] 숫자 카드 2 /* Solve */" />
+    <option name="LAST_COMMIT_MESSAGE" value="[10816] 숫자 카드 2 /* Solve */" />
   </component>
 </project>
