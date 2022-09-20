@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[2805] 나무 자르기 /* Solve */">
-      <change afterPath="$PROJECT_DIR$/18111.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18111.py" beforeDir="false" afterPath="$PROJECT_DIR$/18111.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

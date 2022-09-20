@@ -9,14 +9,15 @@ def minecraft(arr, target, end, b):
     while target <= end:
         cnt = 0
         block = b
-        for i in arr:
-            for item in i:
-                if item >= target:
-                    cnt += ((item - target) * 2)
-                    block += (item - target)
-                else:
-                    cnt += (target - item)
-                    block -= (target - item)
+        for item, num in enumerate(arr):
+            if num < start and num > end:
+                continue
+            if item >= target:
+                cnt += ((item - target) * 2 * num)
+                block += ((item - target) * num)
+            else:
+                cnt += ((target - item) * num)
+                block -= ((target - item) * num)
 
         if block >= 0 and cnt <= ret_t:
             ret_t = cnt
@@ -26,14 +27,16 @@ def minecraft(arr, target, end, b):
 
 
 N, M, B = map(int, stdin.readline().split())
-li = list()
+li = [0]*257
 start = 256
 end = 0
 
 for i in range(N):
-    li.append(list(map(int, stdin.readline().split())))
-    end = max(end, max(li[i]))
-    start = min(start, min(li[i]))
+    t = list(map(int, stdin.readline().split()))
+    for i in t:
+        li[i] += 1
+    end = max(end, max(t))
+    start = min(start, min(t))
 
 result = minecraft(li, start, end, B)
 print(result[0], result[1])
