@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="[10845] 큐 /* Solve */">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="bb03e38a-a7d3-4ef5-8f1f-1aa75693db35" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663675577234</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="test">
+      <created>1666652809340</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666652809340</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[2609] 최대공약수와 최소공배수 /* Solve */" />
     <MESSAGE value="[2775] 부녀회장이 될테야 /* Solve */" />
     <MESSAGE value="[10989] 수 정렬하기 3 /* Solve */" />
     <MESSAGE value="[11050] 이항 계수 1 /* Solve */" />
@@ -456,6 +462,7 @@
     <MESSAGE value="[1654] 랜선 자르기 /* Solve */" />
     <MESSAGE value="[1874] 스택 수열 /* Solve */" />
     <MESSAGE value="[2805] 나무 자르기 /* Solve */" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2805] 나무 자르기 /* Solve */" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
