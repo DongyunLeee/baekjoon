@@ -41,7 +41,7 @@ A, B, C = map(int, input().split())
 
 ret = list()    # 결과저장 리스트
 visited = [[False] * (B+1) for _ in range(A+1)]    # 방문여부 저장 리스트
-visited[0][0] = True # 초기 (a, b)값 방문ㅊ처리
+visited[0][0] = True # 초기 (a, b)값 방문처리
 q = deque()    # 경우의 수 저장 큐
 q.append((0, 0))    # 초기 (a, b)값 입력
 
