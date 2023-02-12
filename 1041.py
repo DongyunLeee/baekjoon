@@ -13,25 +13,21 @@ if N == 1:
 # 주사위의 크기가 2이상인 경우, 한 주사위당 3개의 숫자까지 사용된다.
 # 최대 3개까지의 가장 작은 숫자 구성을 탐색한다.
 else:
-    # 하나의 숫자로 구성할 수 있는 최솟값
-    min_1 = min(arr)
-    min_idx = arr.index(min_1)
-    idx = len(arr) - min_idx - 1
 
-    del arr[max(min_idx, idx)]
-    del arr[min(min_idx, idx)]
+    # 각 마주보는 주사위의 숫자 중, 작은 숫자를 저장하여 오름차순 정렬
+    min_list = [min(arr[0], arr[5]), min(arr[1], arr[4]), min(arr[2], arr[3])]
+    min_list.sort()
 
-    # 두 개의 숫자로 구성할 수 있는 최솟값(min_1 + 연관된 가장 작은 숫자)
-    min_2 = min_1 + min(arr)
-    min_idx = arr.index(min(arr))
-    idx = len(arr) - min_idx - 1
+    # 표현되는 주사위 면의 개수에 따른 최솟 값을 계산
+    min_1 = min_list[0]
+    min_2 = sum(min_list[0:2])
+    min_3 = sum(min_list)
 
-    del arr[max(min_idx, idx)]
-    del arr[min(min_idx, idx)]
+    # 입력값 N에 필요한 최솟 값을 표현되는 면의 수에 따라 계산
+    result_1 = min_1 * (((N-2) * (N-2) * 5) + ((N-2) * 4))
+    result_2 = min_2 * (((N-2) * 8) + 4)
+    result_3 = min_3 * 4
 
-    # 세 개의 숫자로 구성할 수 있는 최솟값(min_2 + 연관된 가장 작은 숫자)
-    min_3 = min_2 + min(arr)
-
-    result = (min_3 * 4) + (min_2 * (((N-2) * 8) + 4)) + (min_1 * (((N-2) * (N-2) * 5) + ((N-2) * 4)))
+    result = result_1 + result_2 + result_3
 
 print(result)
